@@ -7,13 +7,15 @@
     "properties": {
         "camera": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
-            "description": "The index of the camera referenced by this node."
+            "description": "The index of the camera referenced by this node.",
+            "ux3d_pathPrefix" : "/cameras"
         },
         "children": {
             "type": "array",
             "description": "The indices of this node's children.",
             "items": {
-                "$ref": "glTFid.schema.json"
+                "$ref": "glTFid.schema.json",
+                "ux3d_pathPrefix" : "/nodes"
             },
             "uniqueItems": true,
             "minItems": 1
@@ -21,6 +23,7 @@
         "skin": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
             "description": "The index of the skin referenced by this node.",
+            "ux3d_pathPrefix" : "/skins",
             "gltf_detailedDescription": "The index of the skin referenced by this node. When a skin is referenced by a node within a scene, all joints used by the skin must belong to the same scene."
         },
         "matrix": {
@@ -37,7 +40,8 @@
         },
         "mesh": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
-            "description": "The index of the mesh in this node."
+            "description": "The index of the mesh in this node.",
+            "ux3d_pathPrefix" : "/meshes"
         },
         "rotation": {
             "type": "array",

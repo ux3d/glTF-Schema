@@ -28,6 +28,7 @@
         },
         "bufferView": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
+            "ux3d_pathPrefix" : "/bufferView",
             "description": "The index of the bufferView that contains the image. Use this instead of the image's uri property."
         },
         "name": { },

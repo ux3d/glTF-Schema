@@ -117,7 +117,8 @@
         },
         "scene": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
-            "description": "The index of the default scene."
+            "description": "The index of the default scene.",
+            "ux3d_pathPrefix" : "/scenes"
         },
         "scenes": {
             "type": "array",

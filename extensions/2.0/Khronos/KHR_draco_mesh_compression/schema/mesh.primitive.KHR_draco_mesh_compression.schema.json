@@ -6,6 +6,7 @@
     "properties": {
         "bufferView": {
             "allOf": [ { "$ref" : "glTFid.schema.json" } ],
+            "ux3d_pathPrefix": "/bufferViews",
             "description": "The index of the bufferView."
         },
         "attributes": {

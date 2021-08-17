@@ -20,11 +20,13 @@
                             "allOf": [ {"$ref": "glTFid.schema.json" } ]
                         },
                         "minItems": 1,
+                        "ux3d_pathPrefix": "/extensions/KHR_material_variants",
                         "gltf_detailedDescription": "An array of index values that reference variants defined in the glTF root's extension object."
                     },
                     "material": {
                         "allOf": [ { "$ref": "glTFid.schema.json" } ],
                         "description": "The material associated with the set of variants.",
+                        "ux3d_pathPrefix": "/materials",
                         "gltf_detailedDescription": "A reference to the material associated with the given array of variants."
                     },
                     "name": {
