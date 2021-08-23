@@ -11,7 +11,7 @@
                     "$ref": "glTFid.schema.json"
                 }
             ],
-            "ux3d_pathPrefix" : "/extensions/KHR_xmp_json_ld",
+            "ux3d_pathPrefix" : "/extensions/KHR_xmp_json_ld/packets",
             "description": "The id of the XMP packet referenced."
         },
         "extensions": { },

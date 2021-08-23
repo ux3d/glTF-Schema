@@ -17,10 +17,10 @@
                         "type": "array",
                         "description": "An array of variant index values.",
                         "items": {
-                            "allOf": [ {"$ref": "glTFid.schema.json" } ]
+                            "allOf": [ {"$ref": "glTFid.schema.json" } ],
+                            "ux3d_pathPrefix": "/extensions/KHR_material_variants/variants"
                         },
                         "minItems": 1,
-                        "ux3d_pathPrefix": "/extensions/KHR_material_variants",
                         "gltf_detailedDescription": "An array of index values that reference variants defined in the glTF root's extension object."
                     },
                     "material": {
