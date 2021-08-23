@@ -9,9 +9,47 @@
             "type": "object",
             "description": "A dictionary object, where each key corresponds to mesh attribute semantic and each value is the index of the accessor containing attribute's data.",
             "minProperties": 1,
-            "additionalProperties": {
-                "$ref": "glTFid.schema.json",
-                "ux3d_pathPrefix" : "/accessors"
+            "properties": {
+                "POSITION": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "NORMAL": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "TANGENT": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "TEXCOORD_0": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "TEXCOORD_1": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "COLOR_0": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "JOINTS_0": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "JOINTS_1": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "WEIGHTS_0": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "WEIGHTS_1": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                }
             }
         },
         "indices": {
