@@ -2,7 +2,6 @@
     
     # generate glTF json schema include file
 	file(GLOB_RECURSE gltf_schema_files RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "*.schema.json")
-	message(STATUS "Generating test glTF Schema")
 
 	set(combined_schemas "")
 	foreach(gltf_schema_file IN LISTS gltf_schema_files)
