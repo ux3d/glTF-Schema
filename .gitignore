@@ -4,3 +4,4 @@
 *.nupkg
 specification/.project
 .DS_Store
+/build
