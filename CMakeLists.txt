@@ -15,4 +15,4 @@
 	endforeach()
 
 	set(generated_file "#pragma once\nconst auto gltfSchemas = R\"gltf(\n{\n${combined_schemas}\n})gltf\";")
-	file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/include/Generated_glTF_Schema.h" "${generated_file}")
+	file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/include/gltf_schema/gltf_single_json.h" "${generated_file}")
