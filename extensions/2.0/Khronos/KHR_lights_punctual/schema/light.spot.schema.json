@@ -10,7 +10,7 @@
             "default" : 0.0,
             "minimum": 0,
             "maximum": 1.5707963267948966,
-            "exclusiveMaximum": true
+            "exclusiveMaximum": 0.0
         },
         "outerConeAngle" : {
             "type" : "number",
@@ -18,7 +18,7 @@
             "default" : 0.7853981633974483,
             "minimum": 0,
             "maximum": 1.5707963267948966,
-            "exclusiveMinimum": true
+            "exclusiveMinimum": 0.0
         },
         "extensions": { },
         "extras": { }

@@ -17,7 +17,7 @@
             "type": "number",
             "description": "The floating-point distance to the far clipping plane. `zfar` must be greater than `znear`.",
             "minimum": 0.0,
-            "exclusiveMinimum": true
+            "exclusiveMinimum": 0.0
         },
         "znear": {
             "type": "number",
