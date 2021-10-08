@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "Image",
     "type": "object",
     "description": "Image data used to create a texture. Image can be referenced by URI or `bufferView` index. `mimeType` is required in the latter case.",

@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema",
+  "$schema": "http://json-schema.org/draft-07/schema",
   "title": "MSFT_packing_occlusionRoughnessMetallic extension",
   "type": "object",
   "description": "glTF extension the specifies a packing of occlusion, roughness and metallic in a single texture and a two channel normal map.",

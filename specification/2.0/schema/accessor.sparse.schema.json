@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "Accessor Sparse",
     "type": "object",
     "description": "Sparse storage of attributes that deviate from their initialization value.",

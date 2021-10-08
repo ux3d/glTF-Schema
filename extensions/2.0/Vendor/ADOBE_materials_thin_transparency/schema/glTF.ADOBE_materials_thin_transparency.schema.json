@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "ADOBE_materials_thin_transparency glTF extension",
     "type": "object",
     "description": "glTF extension that defines properties to model physically plausible optical transparency.",

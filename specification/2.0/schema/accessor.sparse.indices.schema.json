@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "Accessor Sparse Indices",
     "type": "object",
     "description": "Indices of those attributes that deviate from their initialization value.",

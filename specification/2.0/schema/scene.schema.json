@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "Scene",
     "type": "object",
     "description": "The root nodes of a scene.",

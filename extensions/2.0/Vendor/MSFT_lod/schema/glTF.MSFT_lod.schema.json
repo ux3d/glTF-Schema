@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "MSFT_lod glTF extension",
     "type": "object",
     "description": "glTF extension for specifying levels of detail (LOD).",

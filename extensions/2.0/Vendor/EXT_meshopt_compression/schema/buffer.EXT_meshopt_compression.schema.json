@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "EXT_meshopt_compression buffer extension",
     "type": "object",
     "description": "Compressed data for bufferView.",

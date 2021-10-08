@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "AGI_stk_metadata glTF Node extension",
     "type": "object",
     "description": "glTF Extension for an individual node in a glTF model, to associate it with the model's root AGI_stk_metadata object.",
