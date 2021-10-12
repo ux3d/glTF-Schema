@@ -19,9 +19,6 @@
                     "enum": [ 9729 ],
                     "description": "LINEAR",
                     "type": "integer"
-                },
-                {
-                    "type": "integer"
                 }
             ]
         },
@@ -59,9 +56,6 @@
                     "enum": [ 9987 ],
                     "description": "LINEAR_MIPMAP_LINEAR",
                     "type": "integer"
-                },
-                {
-                    "type": "integer"
                 }
             ]
         },
@@ -85,9 +79,6 @@
                     "enum": [ 10497 ],
                     "description": "REPEAT",
                     "type": "integer"
-                },
-                {
-                    "type": "integer"
                 }
             ]
         },
@@ -110,9 +101,6 @@
                 {
                     "enum": [ 10497 ],
                     "description": "REPEAT",
-                    "type": "integer"
-                },
-                {
                     "type": "integer"
                 }
             ]

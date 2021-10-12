@@ -19,9 +19,6 @@
                 },
                 {
                     "enum": [ "image/png" ]
-                },
-                {
-                    "type": "string"
                 }
             ],
             "description": "The image's MIME type. Required if `bufferView` is defined."

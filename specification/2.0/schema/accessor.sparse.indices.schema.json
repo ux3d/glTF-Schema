@@ -34,9 +34,6 @@
                     "enum": [ 5125 ],
                     "description": "UNSIGNED_INT",
                     "type": "integer"
-                },
-                {
-                    "type": "integer"
                 }
             ]
         },

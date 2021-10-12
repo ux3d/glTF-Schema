@@ -42,9 +42,6 @@
                 {
                     "enum": [ "spot" ],
                     "description": "Spot lights emit light in a cone in the direction of the local -z axis. The angle and falloff of the cone is defined using two numbers, the innerConeAngle and outerConeAngle. As with point lights, the brightness also attenuates in a physically correct manner as distance increases from the light's position (i.e. brightness goes like the inverse square of the distance). Spot light intensity refers to the brightness inside the innerConeAngle (and at the location of the light) and is defined in candela, which is lumens per square radian (lm/sr). Engines that don't support two angles for spotlights should use outerConeAngle as the spotlight angle (leaving innerConeAngle to implicitly be 0)."
-                },
-                {
-                    "type": "string"
                 }
             ]
         },
