@@ -10,5 +10,5 @@
 		string(APPEND combined_schemas "\"${file_name}\",\nR\"gltf(${content})gltf\",\n")
 	endforeach()
 
-	set(generated_file "#pragma once\nconst std::string gltfSchemaArray[] = {${combined_schemas}};\nnlohmann::json gltfSchemas;\n\nvoid fillGltfSchemas() {\n    gltfSchemas = nlohmann::json::object();\n    for (int i = 0; i < sizeof(gltfSchemaArray) / sizeof(*gltfSchemaArray); i=i+2) {\n        auto partSchema = nlohmann::json::parse(gltfSchemaArray[i+1]);\n        gltfSchemas[gltfSchemaArray[i]] = partSchema;\n    }\n}")
+	set(generated_file "#pragma once\nnamespace gltf_schema {\nconst std::string gltfSchemaArray[] = {${combined_schemas}};\n\n\ninline nlohmann::json merged() {\n	   auto gltfSchemas = nlohmann::json::object();\n    for (int i = 0; i < sizeof(gltfSchemaArray) / sizeof(*gltfSchemaArray); i=i+2) {\n        auto partSchema = nlohmann::json::parse(gltfSchemaArray[i+1]);\n        gltfSchemas[gltfSchemaArray[i]] = partSchema;\n   }\n    return gltfSchemas;\n}\n}\n")
 	file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/include/gltf_schema/gltf_single_json.h" "${generated_file}")
