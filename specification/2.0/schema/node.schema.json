@@ -15,8 +15,7 @@
             "description": "The indices of this node's children.",
             "items": {
                 "$ref": "glTFid.schema.json",
-                "ux3d_pathPrefix" : "/nodes",
-                "ux3d_generateSetter": false
+                "ux3d_pathPrefix" : "/nodes"
             },
             "uniqueItems": true,
             "minItems": 1
