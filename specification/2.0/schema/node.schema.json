@@ -84,7 +84,14 @@
             }
         },
         "name": { },
-        "extensions": { },
+        "extensions": {
+            "type": "object",
+            "properties": {
+                "KHR_lights_punctual": {
+                    "$ref": "node.KHR_lights_punctual.schema.json"
+                }
+            }
+         },
         "extras": { }
     },
     "dependencies": {

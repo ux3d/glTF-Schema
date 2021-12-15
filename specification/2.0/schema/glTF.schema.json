@@ -145,7 +145,14 @@
             },
             "minItems": 1
         },
-        "extensions": { },
+        "extensions": { 
+            "type": "object",
+            "properties": {
+                "KHR_lights_punctual": {
+                    "$ref": "glTF.KHR_lights_punctual.schema.json"
+                }
+            }
+        },
         "extras": { }
     },
     "dependencies": {
