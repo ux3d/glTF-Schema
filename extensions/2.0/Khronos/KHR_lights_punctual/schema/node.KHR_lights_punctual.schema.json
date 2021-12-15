@@ -10,7 +10,7 @@
                     "$ref": "glTFid.schema.json"
                 }
             ],
-            "ux3d_pathPrefix": "/extensions/KHR_lights_punctual",
+            "ux3d_pathPrefix": "/extensions/KHR_lights_punctual/lights",
             "description": "The id of the light referenced by this node."
         },
         "extensions": { },
