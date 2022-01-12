@@ -6,7 +6,14 @@
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
     "properties": {
         "name": { },
-        "extensions": { },
+        "extensions": {
+            "type": "object",
+            "properties": {
+                "KHR_xmp_json_ld": {
+                    "$ref": "KHR_xmp_json_ld.schema.json"
+                }
+            }
+        },
         "extras": { },
         "pbrMetallicRoughness": {
             "allOf": [ { "$ref": "material.pbrMetallicRoughness.schema.json" } ],

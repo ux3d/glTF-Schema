@@ -89,6 +89,9 @@
             "properties": {
                 "KHR_lights_punctual": {
                     "$ref": "node.KHR_lights_punctual.schema.json"
+                },
+                "KHR_xmp_json_ld": {
+                    "$ref": "KHR_xmp_json_ld.schema.json"
                 }
             }
          },

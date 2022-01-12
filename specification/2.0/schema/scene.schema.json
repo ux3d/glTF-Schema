@@ -16,7 +16,14 @@
             "minItems": 1
         },
         "name": { },
-        "extensions": { },
+        "extensions": {
+            "type": "object",
+            "properties": {
+                "KHR_xmp_json_ld": {
+                    "$ref": "KHR_xmp_json_ld.schema.json"
+                }
+            }
+        },
         "extras": { }
     }
 }
