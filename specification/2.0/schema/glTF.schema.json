@@ -42,7 +42,15 @@
         },
         "asset": {
             "allOf": [ { "$ref": "asset.schema.json" } ],
-            "description": "Metadata about the glTF asset."
+            "description": "Metadata about the glTF asset.",
+            "extensions": {
+                "type": "object",
+                "properties": {
+                    "KHR_xmp_json_ld": {
+                        "$ref": "KHR_xmp_json_ld.schema.json"
+                    }
+                }
+            }
         },
         "buffers": {
             "type": "array",
@@ -145,11 +153,14 @@
             },
             "minItems": 1
         },
-        "extensions": { 
+        "extensions": {
             "type": "object",
             "properties": {
                 "KHR_lights_punctual": {
                     "$ref": "glTF.KHR_lights_punctual.schema.json"
+                },
+                "KHR_xmp_json_ld": {
+                    "$ref": "glTF.KHR_xmp_json_ld.schema.json"
                 }
             }
         },
