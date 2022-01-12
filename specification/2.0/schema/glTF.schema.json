@@ -42,15 +42,7 @@
         },
         "asset": {
             "allOf": [ { "$ref": "asset.schema.json" } ],
-            "description": "Metadata about the glTF asset.",
-            "extensions": {
-                "type": "object",
-                "properties": {
-                    "KHR_xmp_json_ld": {
-                        "$ref": "KHR_xmp_json_ld.schema.json"
-                    }
-                }
-            }
+            "description": "Metadata about the glTF asset."
         },
         "buffers": {
             "type": "array",
