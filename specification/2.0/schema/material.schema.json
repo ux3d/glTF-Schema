@@ -12,6 +12,9 @@
                 "KHR_xmp_json_ld": {
                     "$ref": "KHR_xmp_json_ld.schema.json"
                 },
+                "KHR_materials_unlit": {
+                    "$ref": "glTF.KHR_materials_unlit.schema.json"
+                },
                 "KHR_materials_ior": {
                     "$ref": "glTF.KHR_materials_ior.schema.json"
                 },
@@ -29,6 +32,9 @@
                 },
                 "KHR_materials_specular": {
                     "$ref": "glTF.KHR_materials_specular.schema.json"
+                },
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "$ref": "glTF.KHR_materials_pbrSpecularGlossiness.schema.json"
                 }
             }
         },
