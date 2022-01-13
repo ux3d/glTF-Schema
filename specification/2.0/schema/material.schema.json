@@ -11,6 +11,24 @@
             "properties": {
                 "KHR_xmp_json_ld": {
                     "$ref": "KHR_xmp_json_ld.schema.json"
+                },
+                "KHR_materials_ior": {
+                    "$ref": "glTF.KHR_materials_ior.schema.json"
+                },
+                "KHR_materials_clearcoat": {
+                    "$ref": "glTF.KHR_materials_clearcoat.schema.json"
+                },
+                "KHR_materials_transmission": {
+                    "$ref": "glTF.KHR_materials_transmission.schema.json"
+                },
+                "KHR_materials_volume": {
+                    "$ref": "glTF.KHR_materials_volume.schema.json"
+                },
+                "KHR_materials_sheen": {
+                    "$ref": "glTF.KHR_materials_sheen.schema.json"
+                },
+                "KHR_materials_specular": {
+                    "$ref": "glTF.KHR_materials_specular.schema.json"
                 }
             }
         },

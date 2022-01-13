@@ -121,7 +121,7 @@
         },
         "extensions": {
             "KHR_materials_variants": {
-                "ref": "mesh.primitive.KHR_materials_variants.schema.json"
+                "$ref": "mesh.primitive.KHR_materials_variants.schema.json"
             }
         },
         "extras": { }
