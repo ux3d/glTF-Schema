@@ -119,7 +119,11 @@
             },
             "minItems": 1
         },
-        "extensions": { },
+        "extensions": {
+            "KHR_materials_variants": {
+                "ref": "mesh.primitive.KHR_materials_variants.schema.json"
+            }
+        },
         "extras": { }
     },
     "gltf_webgl": "`drawElements()` and `drawArrays()`",

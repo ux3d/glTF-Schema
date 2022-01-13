@@ -153,6 +153,9 @@
                 },
                 "KHR_xmp_json_ld": {
                     "$ref": "glTF.KHR_xmp_json_ld.schema.json"
+                },
+                "KHR_materials_variants": {
+                    "$ref": "glTF.KHR_materials_variants.schema.json"
                 }
             }
         },
