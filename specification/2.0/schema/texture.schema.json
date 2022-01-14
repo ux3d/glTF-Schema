@@ -16,7 +16,11 @@
             "ux3d_pathPrefix" : "/images"
         },
         "name": { },
-        "extensions": { },
+        "extensions": {
+            "KHR_texture_basisu": {
+                "$ref": "texture.KHR_texture_basisu.schema.json"
+            }
+        },
         "extras": { }
     },
     "gltf_webgl": "`createTexture()`, `deleteTexture()`, `bindTexture()`, `texImage2D()`, and `texParameterf()`"
