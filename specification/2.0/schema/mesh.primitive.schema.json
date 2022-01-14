@@ -120,6 +120,9 @@
             "minItems": 1
         },
         "extensions": {
+            "KHR_draco_mesh_compression": {
+                "$ref": "mesh.primitive.KHR_draco_mesh_compression.schema.json"
+            },
             "KHR_materials_variants": {
                 "$ref": "mesh.primitive.KHR_materials_variants.schema.json"
             }
