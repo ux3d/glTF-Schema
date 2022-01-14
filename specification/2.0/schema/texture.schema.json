@@ -17,8 +17,11 @@
         },
         "name": { },
         "extensions": {
-            "KHR_texture_basisu": {
-                "$ref": "texture.KHR_texture_basisu.schema.json"
+            "type": "object",
+            "properties": {
+                "KHR_texture_basisu": {
+                    "$ref": "texture.KHR_texture_basisu.schema.json"
+                }
             }
         },
         "extras": { }
