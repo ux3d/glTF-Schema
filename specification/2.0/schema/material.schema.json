@@ -35,6 +35,9 @@
                 },
                 "KHR_materials_pbrSpecularGlossiness": {
                     "$ref": "glTF.KHR_materials_pbrSpecularGlossiness.schema.json"
+                },
+                "KHR_materials_emissive_strength": {
+                    "$ref": "glTF.KHR_materials_emissive_strength.schema.json"
                 }
             }
         },
