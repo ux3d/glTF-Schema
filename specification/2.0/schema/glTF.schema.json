@@ -124,10 +124,10 @@
             "type": "array",
             "description": "An array of scenes.",
             "items": {
-                "$ref": "scene.schema.json"
+              "$ref": "scene.schema.json",
+              "ux3d_hierarchy": true
             },
-            "minItems": 1,
-            "ux3d_hierarchy": true
+            "minItems": 1
         },
         "skins": {
             "type": "array",
