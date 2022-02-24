@@ -9,7 +9,8 @@
             "type": "array",
             "description": "An array of primitives, each defining geometry to be rendered with a material.",
             "items": {
-                "$ref": "mesh.primitive.schema.json"
+                "$ref": "mesh.primitive.schema.json",
+                "ux3d_hierarchy": true
             },
             "minItems": 1
         },

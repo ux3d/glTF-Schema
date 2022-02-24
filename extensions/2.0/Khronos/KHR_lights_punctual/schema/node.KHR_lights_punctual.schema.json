@@ -11,6 +11,7 @@
                 }
             ],
             "ux3d_pathPrefix": "/extensions/KHR_lights_punctual/lights",
+            "ux3d_hierarchy": true,
             "description": "The id of the light referenced by this node."
         },
         "extensions": { },

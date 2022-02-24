@@ -126,7 +126,8 @@
             "items": {
                 "$ref": "scene.schema.json"
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_hierarchy": true
         },
         "skins": {
             "type": "array",

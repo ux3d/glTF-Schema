@@ -10,7 +10,8 @@
             "description": "The indices of each root node.",
             "items": {
                 "$ref": "glTFid.schema.json",
-                "ux3d_pathPrefix" : "/nodes"
+                "ux3d_pathPrefix" : "/nodes",
+                "ux3d_hierarchy": true
             },
             "uniqueItems": true,
             "minItems": 1
