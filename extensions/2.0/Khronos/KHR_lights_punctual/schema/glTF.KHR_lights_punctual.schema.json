@@ -10,7 +10,8 @@
                 "type": "object",
                 "$ref": "light.schema.json"
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 3
         },
         "extensions": { },
         "extras": { }

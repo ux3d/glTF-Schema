@@ -23,7 +23,8 @@
                 },
                 "required": [ "name" ]
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 4
         },
         "extensions": { },
         "extras": { }

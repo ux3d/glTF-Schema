@@ -30,7 +30,8 @@
                 "$ref": "accessor.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of accessors.  An accessor is a typed view into a bufferView."
+            "gltf_detailedDescription": "An array of accessors.  An accessor is a typed view into a bufferView.",
+            "ux3d_resources": 12
         },
         "animations": {
             "type": "array",
@@ -38,7 +39,8 @@
             "items": {
                 "$ref": "animation.schema.json"
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 11
         },
         "asset": {
             "allOf": [ { "$ref": "asset.schema.json" } ],
@@ -69,7 +71,8 @@
                 "$ref": "camera.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of cameras.  A camera defines a projection matrix."
+            "gltf_detailedDescription": "An array of cameras.  A camera defines a projection matrix.",
+            "ux3d_resources": 2
         },
         "images": {
             "type": "array",
@@ -78,7 +81,8 @@
                 "$ref": "image.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of images.  An image defines data used to create a texture."
+            "gltf_detailedDescription": "An array of images.  An image defines data used to create a texture.",
+            "ux3d_resources": 8
         },
         "materials": {
             "type": "array",
@@ -87,7 +91,8 @@
                 "$ref": "material.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of materials.  A material defines the appearance of a primitive."
+            "gltf_detailedDescription": "An array of materials.  A material defines the appearance of a primitive.",
+            "ux3d_resources": 6
         },
         "meshes": {
             "type": "array",
@@ -96,7 +101,8 @@
                 "$ref": "mesh.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of meshes.  A mesh is a set of primitives to be rendered."
+            "gltf_detailedDescription": "An array of meshes.  A mesh is a set of primitives to be rendered.",
+            "ux3d_resources": 5
         },
         "nodes": {
             "type": "array",
@@ -104,7 +110,8 @@
             "items": {
                 "$ref": "node.schema.json"
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 1
         },
         "samplers": {
             "type": "array",
@@ -113,7 +120,8 @@
                 "$ref": "sampler.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of samplers.  A sampler contains properties for texture filtering and wrapping modes."
+            "gltf_detailedDescription": "An array of samplers.  A sampler contains properties for texture filtering and wrapping modes.",
+            "ux3d_resources": 9
         },
         "scene": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
@@ -127,7 +135,8 @@
               "$ref": "scene.schema.json",
               "ux3d_hierarchy": true
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 0
         },
         "skins": {
             "type": "array",
@@ -136,7 +145,8 @@
                 "$ref": "skin.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of skins.  A skin is defined by joints and matrices."
+            "gltf_detailedDescription": "An array of skins.  A skin is defined by joints and matrices.",
+            "ux3d_resources": 10
         },
         "textures": {
             "type": "array",
@@ -144,7 +154,8 @@
             "items": {
                 "$ref": "texture.schema.json"
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 7
         },
         "extensions": {
             "type": "object",

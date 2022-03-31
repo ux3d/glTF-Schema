@@ -22,7 +22,8 @@
                 "description": "Dictionary of XMP metadata properties. Property names take the form `xmp_namespace_name:property_name`",
                 "required": ["@context"]
             },
-            "minItems": 1
+            "minItems": 1,
+            "ux3d_resources": 13
         },
         "extensions": { },
         "extras": { }
