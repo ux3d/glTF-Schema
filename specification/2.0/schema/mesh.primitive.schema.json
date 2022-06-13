@@ -30,7 +30,27 @@
                     "$ref": "glTFid.schema.json",
                     "ux3d_pathPrefix" : "/accessors"
                 },
+                "TEXCOORD_2": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "TEXCOORD_3": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
                 "COLOR_0": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "COLOR_1": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "COLOR_2": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "COLOR_3": {
                     "$ref": "glTFid.schema.json",
                     "ux3d_pathPrefix" : "/accessors"
                 },
@@ -42,11 +62,27 @@
                     "$ref": "glTFid.schema.json",
                     "ux3d_pathPrefix" : "/accessors"
                 },
+                "JOINTS_2": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "JOINTS_3": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
                 "WEIGHTS_0": {
                     "$ref": "glTFid.schema.json",
                     "ux3d_pathPrefix" : "/accessors"
                 },
                 "WEIGHTS_1": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "WEIGHTS_2": {
+                    "$ref": "glTFid.schema.json",
+                    "ux3d_pathPrefix" : "/accessors"
+                },
+                "WEIGHTS_3": {
                     "$ref": "glTFid.schema.json",
                     "ux3d_pathPrefix" : "/accessors"
                 }
@@ -112,9 +148,19 @@
             "items": {
                 "type": "object",
                 "minProperties": 1,
-                "additionalProperties": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
+                "properties": {
+                    "POSITION": {
+                        "$ref": "glTFid.schema.json",
+                        "ux3d_pathPrefix" : "/accessors"
+                    },
+                    "NORMAL": {
+                        "$ref": "glTFid.schema.json",
+                        "ux3d_pathPrefix" : "/accessors"
+                    },
+                    "TANGENT": {
+                        "$ref": "glTFid.schema.json",
+                        "ux3d_pathPrefix" : "/accessors"
+                    }
                 },
                 "description": "A dictionary object specifying attributes displacements in a Morph Target, where each key corresponds to one of the three supported attribute semantic (`POSITION`, `NORMAL`, or `TANGENT`) and each value is the index of the accessor containing the attribute displacements' data."
             },
