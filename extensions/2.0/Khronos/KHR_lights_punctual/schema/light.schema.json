@@ -48,7 +48,6 @@
         "range": {
             "type": "number",
             "description": "A distance cutoff at which the light's intensity may be considered to have reached zero.",
-            "minimum": 0,
             "exclusiveMinimum": 0.0
         },
         "name": { },
