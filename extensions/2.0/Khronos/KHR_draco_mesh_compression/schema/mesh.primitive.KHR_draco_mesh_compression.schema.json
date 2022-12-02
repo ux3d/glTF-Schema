@@ -2,16 +2,19 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "title": "KHR_draco_mesh_compression extension",
     "type": "object",
+    "ux3d_generateSetter": false,
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
     "properties": {
         "bufferView": {
             "allOf": [ { "$ref" : "glTFid.schema.json" } ],
             "ux3d_pathPrefix": "/bufferViews",
+            "ux3d_generateSetter": false,
             "description": "The index of the bufferView."
         },
         "attributes": {
             "type": "object",
             "minProperties": 1,
+            "ux3d_generateSetter": false,
             "additionalProperties": {
                 "$ref": "glTFid.schema.json"
             },

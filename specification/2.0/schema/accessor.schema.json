@@ -9,7 +9,8 @@
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
             "description": "The index of the bufferView.",
             "ux3d_pathPrefix" : "/bufferViews",
-            "gltf_detailedDescription": "The index of the bufferView. When not defined, accessor must be initialized with zeros; `sparse` property or extensions could override zeros with actual values."
+            "gltf_detailedDescription": "The index of the bufferView. When not defined, accessor must be initialized with zeros; `sparse` property or extensions could override zeros with actual values.",
+            "ux3d_generateSetter": false
         },
         "byteOffset": {
             "type": "integer",
@@ -17,7 +18,8 @@
             "minimum": 0,
             "default": 0,
             "gltf_detailedDescription": "The offset relative to the start of the bufferView in bytes.  This must be a multiple of the size of the component datatype.",
-            "gltf_webgl": "`vertexAttribPointer()` offset parameter"
+            "gltf_webgl": "`vertexAttribPointer()` offset parameter",
+            "ux3d_generateSetter": false
         },
         "componentType": {
             "description": "The datatype of components in the attribute.",
@@ -54,20 +56,23 @@
                     "description": "FLOAT",
                     "type": "integer"
                 }
-            ]
+            ],
+            "ux3d_generateSetter": false
         },
         "normalized": {
             "type": "boolean",
             "description": "Specifies whether integer data values should be normalized.",
             "default": false,
             "gltf_detailedDescription": "Specifies whether integer data values should be normalized (`true`) to [0, 1] (for unsigned types) or [-1, 1] (for signed types), or converted directly (`false`) when they are accessed. This property is defined only for accessors that contain vertex attributes or animation output data.",
-            "gltf_webgl": "`vertexAttribPointer()` normalized parameter"
+            "gltf_webgl": "`vertexAttribPointer()` normalized parameter",
+            "ux3d_generateSetter": false
         },
         "count": {
             "type": "integer",
             "description": "The number of attributes referenced by this accessor.",
             "minimum": 1,
-            "gltf_detailedDescription": "The number of attributes referenced by this accessor, not to be confused with the number of bytes or number of components."
+            "gltf_detailedDescription": "The number of attributes referenced by this accessor, not to be confused with the number of bytes or number of components.",
+            "ux3d_generateSetter": false
         },
         "type": {
             "description": "Specifies if the attribute is a scalar, vector, or matrix.",
@@ -93,7 +98,8 @@
                 {
                     "enum": [ "MAT4" ]
                 }
-            ]
+            ],
+            "ux3d_generateSetter": false
         },
         "max": {
             "type": "array",
@@ -103,7 +109,8 @@
             },
             "minItems": 1,
             "maxItems": 16,
-            "gltf_detailedDescription": "Maximum value of each component in this attribute.  Array elements must be treated as having the same data type as accessor's `componentType`. Both min and max arrays have the same length.  The length is determined by the value of the type property; it can be 1, 2, 3, 4, 9, or 16.\n\n`normalized` property has no effect on array values: they always correspond to the actual values stored in the buffer. When accessor is sparse, this property must contain max values of accessor data with sparse substitution applied."
+            "gltf_detailedDescription": "Maximum value of each component in this attribute.  Array elements must be treated as having the same data type as accessor's `componentType`. Both min and max arrays have the same length.  The length is determined by the value of the type property; it can be 1, 2, 3, 4, 9, or 16.\n\n`normalized` property has no effect on array values: they always correspond to the actual values stored in the buffer. When accessor is sparse, this property must contain max values of accessor data with sparse substitution applied.",
+            "ux3d_generateSetter": false
         },
         "min": {
             "type": "array",
@@ -113,11 +120,13 @@
             },
             "minItems": 1,
             "maxItems": 16,
-            "gltf_detailedDescription": "Minimum value of each component in this attribute.  Array elements must be treated as having the same data type as accessor's `componentType`. Both min and max arrays have the same length.  The length is determined by the value of the type property; it can be 1, 2, 3, 4, 9, or 16.\n\n`normalized` property has no effect on array values: they always correspond to the actual values stored in the buffer. When accessor is sparse, this property must contain min values of accessor data with sparse substitution applied."
+            "gltf_detailedDescription": "Minimum value of each component in this attribute.  Array elements must be treated as having the same data type as accessor's `componentType`. Both min and max arrays have the same length.  The length is determined by the value of the type property; it can be 1, 2, 3, 4, 9, or 16.\n\n`normalized` property has no effect on array values: they always correspond to the actual values stored in the buffer. When accessor is sparse, this property must contain min values of accessor data with sparse substitution applied.",
+            "ux3d_generateSetter": false
         },
         "sparse": {
             "allOf": [ { "$ref": "accessor.sparse.schema.json" } ],
-            "description": "Sparse storage of attributes that deviate from their initialization value."
+            "description": "Sparse storage of attributes that deviate from their initialization value.",
+            "ux3d_generateSetter": false
         },
         "name": { },
         "extensions": { },

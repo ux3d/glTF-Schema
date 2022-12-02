@@ -8,13 +8,15 @@
         "bufferView": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
             "description": "The index of the bufferView with sparse indices. Referenced bufferView can't have ARRAY_BUFFER or ELEMENT_ARRAY_BUFFER target.",
-            "ux3d_pathPrefix" : "/bufferViews"
+            "ux3d_pathPrefix" : "/bufferViews",
+            "ux3d_generateSetter": false
         },
         "byteOffset": {
             "type": "integer",
             "description": "The offset relative to the start of the bufferView in bytes. Must be aligned.",
             "minimum": 0,
-            "default": 0
+            "default": 0,
+            "ux3d_generateSetter": false
         },
         "componentType": {
             "description": "The indices data type.",
@@ -35,7 +37,8 @@
                     "description": "UNSIGNED_INT",
                     "type": "integer"
                 }
-            ]
+            ],
+            "ux3d_generateSetter": false
         },
         "extensions": { },
         "extras": { }

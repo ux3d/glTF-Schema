@@ -9,15 +9,18 @@
             "type": "integer",
             "description": "Number of entries stored in the sparse array.",
             "minimum": 1,
-            "gltf_detailedDescription": "The number of attributes encoded in this sparse accessor."
+            "gltf_detailedDescription": "The number of attributes encoded in this sparse accessor.",
+            "ux3d_generateSetter": false
         },
         "indices": {
             "allOf": [ { "$ref": "accessor.sparse.indices.schema.json" } ],
-            "description": "Index array of size `count` that points to those accessor attributes that deviate from their initialization value. Indices must strictly increase."
+            "description": "Index array of size `count` that points to those accessor attributes that deviate from their initialization value. Indices must strictly increase.",
+            "ux3d_generateSetter": false
         },
         "values": {
             "allOf": [ { "$ref": "accessor.sparse.values.schema.json" } ],
-            "description": "Array of size `count` times number of components, storing the displaced accessor attributes pointed by `indices`. Substituted values must have the same `componentType` and number of components as the base accessor."
+            "description": "Array of size `count` times number of components, storing the displaced accessor attributes pointed by `indices`. Substituted values must have the same `componentType` and number of components as the base accessor.",
+            "ux3d_generateSetter": false
         },
         "extensions": { },
         "extras": { }
