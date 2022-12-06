@@ -7,11 +7,13 @@
     "properties": {
         "orthographic": {
             "allOf": [ { "$ref": "camera.orthographic.schema.json" } ],
-            "description": "An orthographic camera containing properties to create an orthographic projection matrix."
+            "description": "An orthographic camera containing properties to create an orthographic projection matrix.",
+            "ux3d_generateSetter": false
         },
         "perspective": {
             "allOf": [ { "$ref": "camera.perspective.schema.json" } ],
-            "description": "A perspective camera containing properties to create a perspective projection matrix."
+            "description": "A perspective camera containing properties to create a perspective projection matrix.",
+            "ux3d_generateSetter": false
         },
       "type": {
         "description": "Specifies if the camera uses a perspective or orthographic projection.",
