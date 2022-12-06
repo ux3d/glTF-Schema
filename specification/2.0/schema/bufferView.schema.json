@@ -8,18 +8,21 @@
         "buffer": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
             "description": "The index of the buffer.",
-            "ux3d_pathPrefix" : "/buffers"
+            "ux3d_pathPrefix" : "/buffers",
+            "ux3d_generateSetter": false
         },
         "byteOffset": {
             "type": "integer",
             "description": "The offset into the buffer in bytes.",
             "minimum": 0,
-            "default": 0
+            "default": 0,
+            "ux3d_generateSetter": false
         },
         "byteLength": {
             "type": "integer",
             "description": "The length of the bufferView in bytes.",
-            "minimum": 1
+            "minimum": 1,
+            "ux3d_generateSetter": false
         },
         "byteStride": {
             "type": "integer",
@@ -28,7 +31,8 @@
             "maximum": 252,
             "multipleOf": 4,
             "gltf_detailedDescription": "The stride, in bytes, between vertex attributes.  When this is not defined, data is tightly packed. When two or more accessors use the same bufferView, this field must be defined.",
-            "gltf_webgl": "`vertexAttribPointer()` stride parameter"
+            "gltf_webgl": "`vertexAttribPointer()` stride parameter",
+            "ux3d_generateSetter": false
         },
         "target": {
             "description": "The target that the GPU buffer should be bound to.",
@@ -44,7 +48,8 @@
                     "description": "ELEMENT_ARRAY_BUFFER",
                     "type": "integer"
                 }
-            ]
+            ],
+            "ux3d_generateSetter": false
         },
         "name": { },
         "extensions": { },
