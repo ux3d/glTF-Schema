@@ -9,83 +9,9 @@
             "type": "object",
             "description": "A dictionary object, where each key corresponds to mesh attribute semantic and each value is the index of the accessor containing attribute's data.",
             "minProperties": 1,
-            "properties": {
-                "POSITION": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "NORMAL": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "TANGENT": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "TEXCOORD_0": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "TEXCOORD_1": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "TEXCOORD_2": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "TEXCOORD_3": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "COLOR_0": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "COLOR_1": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "COLOR_2": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "COLOR_3": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "JOINTS_0": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "JOINTS_1": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "JOINTS_2": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "JOINTS_3": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "WEIGHTS_0": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "WEIGHTS_1": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "WEIGHTS_2": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                },
-                "WEIGHTS_3": {
-                    "$ref": "glTFid.schema.json",
-                    "ux3d_pathPrefix" : "/accessors"
-                }
+            "additionalProperties": {
+                "$ref": "glTFid.schema.json",
+                "ux3d_pathPrefix" : "/accessors"
             }
         },
         "indices": {
