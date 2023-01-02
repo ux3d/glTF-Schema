@@ -4,6 +4,19 @@
     "type": "object",
     "description": "The material appearance of a primitive.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 10,
+        "doubleSided": 9,
+        "alphaMode": 8,
+        "alphaCutoff": 7,
+        "emissiveFactor": 6,
+        "emissiveTexture": 5,
+        "normalTexture": 4,
+        "occlusionTexture": 3,
+        "pbrMetallicRoughness": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "name": { },
         "extensions": {

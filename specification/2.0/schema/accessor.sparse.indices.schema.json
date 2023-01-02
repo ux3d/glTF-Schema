@@ -4,6 +4,13 @@
     "type": "object",
     "description": "Indices of those attributes that deviate from their initialization value.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "bufferView": 4,
+        "byteOffset": 3,
+        "componentType": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "bufferView": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

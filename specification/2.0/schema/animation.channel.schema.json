@@ -4,6 +4,12 @@
     "type": "object",
     "description": "Targets an animation's sampler at a node's property.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "sampler": 3,
+        "target": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "sampler": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

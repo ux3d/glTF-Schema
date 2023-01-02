@@ -4,6 +4,12 @@
     "type": "object",
     "description": "Reference to a texture.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "index": 3,
+        "texCoord": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "index": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

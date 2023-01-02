@@ -4,6 +4,14 @@
     "type": "object",
     "description": "Image data used to create a texture. Image can be referenced by URI or `bufferView` index. `mimeType` is required in the latter case.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 5,
+        "uri": 4,
+        "bufferView": 3,
+        "mimeType": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "uri": {
             "type": "string",

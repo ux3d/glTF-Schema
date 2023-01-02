@@ -3,6 +3,13 @@
     "title": "Material Normal Texture Info",
     "type": "object",
     "allOf": [ { "$ref": "textureInfo.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "index": 4,
+        "scale": 3,
+        "texCoord": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "index": { },
         "texCoord": { },
