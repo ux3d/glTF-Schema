@@ -104,6 +104,10 @@
         "name": { },
         "extensions": {
             "type": "object",
+            "ux3d_propertyOrdering": {
+                "KHR_lights_punctual": 1,
+                "KHR_xmp_json_ld": 0
+            },
             "properties": {
                 "KHR_lights_punctual": {
                     "$ref": "node.KHR_lights_punctual.schema.json"

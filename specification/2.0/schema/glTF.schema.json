@@ -180,6 +180,11 @@
         },
         "extensions": {
             "type": "object",
+            "ux3d_propertyOrdering": {
+                "KHR_lights_punctual": 2,
+                "KHR_materials_variants": 1,
+                "KHR_xmp_json_ld": 0
+            },
             "properties": {
                 "KHR_lights_punctual": {
                     "$ref": "glTF.KHR_lights_punctual.schema.json"

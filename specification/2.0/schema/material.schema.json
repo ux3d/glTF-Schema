@@ -21,6 +21,19 @@
         "name": { },
         "extensions": {
             "type": "object",
+            "ux3d_propertyOrdering": {
+                "KHR_materials_pbrSpecularGlossiness": 10,
+                "KHR_materials_unlit": 9,
+                "KHR_materials_clearcoat": 8,
+                "KHR_materials_transmission": 7,
+                "KHR_materials_sheen": 6,
+                "KHR_materials_specular": 5,
+                "KHR_materials_ior": 4,
+                "KHR_materials_volume": 3,
+                "KHR_materials_iridescence": 2,
+                "KHR_materials_emissive_strength": 1,
+                "KHR_xmp_json_ld": 0
+            },
             "properties": {
                 "KHR_xmp_json_ld": {
                     "$ref": "KHR_xmp_json_ld.schema.json"
