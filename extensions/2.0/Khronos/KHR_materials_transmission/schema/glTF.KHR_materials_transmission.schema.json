@@ -4,6 +4,12 @@
     "type": "object",
     "description": "glTF extension that defines the optical transmission of a material.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "transmissionFactor": 3,
+        "transmissionTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "transmissionFactor": {
             "type": "number",

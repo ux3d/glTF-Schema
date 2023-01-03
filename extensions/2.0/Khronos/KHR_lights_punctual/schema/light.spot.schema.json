@@ -3,6 +3,12 @@
     "title" : "light/spot",
     "type" : "object",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "innerConeAngle": 3,
+        "outerConeAngle": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties" : {
         "innerConeAngle" : {
             "type" : "number",

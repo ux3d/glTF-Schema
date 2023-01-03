@@ -4,6 +4,11 @@
     "type": "object",
     "description": "glTF extension to specify textures using the KTX v2 images with Basis Universal supercompression.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "source": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "source": {
           "allOf": [ { "$ref": "glTFid.schema.json" } ],

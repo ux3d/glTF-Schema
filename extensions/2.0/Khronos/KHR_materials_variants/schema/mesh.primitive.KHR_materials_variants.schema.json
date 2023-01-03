@@ -3,6 +3,11 @@
     "title": "KHR_materials_variants mesh primitive extension",
     "type": "object",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "mappings": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "mappings": {
             "type": "array",
@@ -11,6 +16,13 @@
             "items": {
                 "type": "object",
                 "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+                "ux3d_propertyOrdering": {
+                    "name": 4,
+                    "variants": 3,
+                    "material": 2,
+                    "extensions": 1,
+                    "extras": 0
+                },
                 "properties": {
                     "variants": {
                         "uniqueItems": true,

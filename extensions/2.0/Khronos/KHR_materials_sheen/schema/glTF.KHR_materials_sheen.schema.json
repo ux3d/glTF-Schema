@@ -4,6 +4,14 @@
     "type": "object",
     "description": "glTF extension that defines the sheen material model.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "sheenColorFactor": 5,
+        "sheenColorTexture": 4,
+        "sheenRoughnessFactor": 3,
+        "sheenRoughnessTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "sheenColorFactor": {
             "type": "array",

@@ -5,6 +5,16 @@
     "type": "object",
     "description": "glTF extension that defines the specular-glossiness material model from Physically-Based Rendering (PBR) methodology.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "diffuseFactor": 7,
+        "diffuseTexture": 6,
+        "iridescenceIor": 5,
+        "specularFactor": 4,
+        "glossinessFactor": 3,
+        "specularGlossinessTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "diffuseFactor": {
             "type": "array",

@@ -4,6 +4,14 @@
     "type" : "object",
     "description": "glTF extension that enables shifting and scaling UV coordinates on a per-texture basis",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "texCoord": 5,
+        "offset": 4,
+        "rotation": 3,
+        "scale": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties" : {
         "offset": {
             "type": "array",
