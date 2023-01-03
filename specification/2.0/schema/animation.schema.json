@@ -4,6 +4,13 @@
     "type": "object",
     "description": "A keyframe animation.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 4,
+        "channels": 3,
+        "samplers": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "channels": {
             "type": "array",

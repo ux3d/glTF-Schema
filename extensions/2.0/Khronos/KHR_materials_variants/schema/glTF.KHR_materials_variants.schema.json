@@ -4,6 +4,11 @@
     "type": "object",
     "description": "glTF extension that defines a material variations for mesh primivites",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "variants": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "variants": {
             "type": "array",
@@ -12,6 +17,11 @@
                 "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
                 "description": "An object defining a valid material variant",
                 "gltf_detailedDescription": "An object defining a valid material variant",
+                "ux3d_propertyOrdering": {
+                    "name": 2,
+                    "extensions": 1,
+                    "extras": 0
+                },
                 "properties": {
                     "name": {
                         "type": "string",

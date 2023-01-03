@@ -4,6 +4,14 @@
     "type": "object",
     "description": "An orthographic camera containing properties to create an orthographic projection matrix.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "znear": 5,
+        "zfar": 4,
+        "xmag": 3,
+        "ymag": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "xmag": {
             "type": "number",

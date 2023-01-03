@@ -4,6 +4,15 @@
     "type": "object",
     "description": "Geometry to be rendered with the given material.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "material": 6,
+        "mode": 5,
+        "indices": 4,
+        "attributes": 3,
+        "targets": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "attributes": {
             "type": "object",
@@ -94,6 +103,10 @@
         },
         "extensions": {
             "type": "object",
+            "ux3d_propertyOrdering": {
+                "KHR_draco_mesh_compression": 1,
+                "KHR_materials_variants": 0
+            },
             "properties": {
                 "KHR_draco_mesh_compression": {
                     "$ref": "mesh.primitive.KHR_draco_mesh_compression.schema.json"

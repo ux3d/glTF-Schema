@@ -4,6 +4,13 @@
     "type": "object",
     "description": "A texture and its sampler.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 4,
+        "source": 3,
+        "sampler": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "sampler": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

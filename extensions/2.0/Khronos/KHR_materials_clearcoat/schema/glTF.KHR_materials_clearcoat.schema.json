@@ -4,6 +4,15 @@
     "type": "object",
     "description": "glTF extension that defines the clearcoat material layer.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "clearcoatFactor": 6,
+        "clearcoatTexture": 5,
+        "clearcoatRoughnessFactor": 4,
+        "clearcoatRoughnessTexture": 3,
+        "clearcoatNormalTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "clearcoatFactor": {
             "type": "number",

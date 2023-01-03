@@ -4,6 +4,13 @@
     "type": "object",
     "description": "A buffer points to binary geometry, animation, or skins.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 4,
+        "uri": 3,
+        "byteLength": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "uri": {
             "type": "string",

@@ -4,6 +4,14 @@
     "type": "object",
     "description": "Joints and matrices defining a skin.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 5,
+        "skeleton": 4,
+        "joints": 3,
+        "inverseBindMatrices": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "inverseBindMatrices": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],
