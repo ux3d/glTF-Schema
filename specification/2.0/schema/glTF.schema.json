@@ -4,6 +4,27 @@
     "type": "object",
     "description": "The root object for a glTF asset.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "asset": 18,
+        "extensionsRequired": 17,
+        "extensionsUsed": 16,
+        "scene": 15,
+        "scenes": 14,
+        "nodes": 13,
+        "cameras": 12,
+        "meshes": 11,
+        "materials": 10,
+        "images": 9,
+        "textures": 8,
+        "samplers": 7,
+        "accessors": 6,
+        "buffers": 5,
+        "bufferViews": 4,
+        "animations": 3,
+        "skins": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "extensionsUsed": {
             "type": "array",
@@ -159,6 +180,11 @@
         },
         "extensions": {
             "type": "object",
+            "ux3d_propertyOrdering": {
+                "KHR_lights_punctual": 2,
+                "KHR_materials_variants": 1,
+                "KHR_xmp_json_ld": 0
+            },
             "properties": {
                 "KHR_lights_punctual": {
                     "$ref": "glTF.KHR_lights_punctual.schema.json"

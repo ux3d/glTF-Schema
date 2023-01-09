@@ -4,6 +4,13 @@
     "type": "object",
     "description": "Sparse storage of attributes that deviate from their initialization value.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "count": 4,
+        "indices": 3,
+        "values": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "count": {
             "type": "integer",

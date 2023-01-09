@@ -4,6 +4,15 @@
     "type": "object",
     "description": "A set of parameter values that are used to define the metallic-roughness material model from Physically-Based Rendering (PBR) methodology.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "baseColorFactor": 6,
+        "baseColorTexture": 5,
+        "metallicFactor": 4,
+        "roughnessFactor": 3,
+        "metallicRoughnessTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "baseColorFactor": {
             "type": "array",

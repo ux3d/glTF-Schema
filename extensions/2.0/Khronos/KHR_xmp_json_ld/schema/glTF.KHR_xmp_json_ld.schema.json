@@ -4,6 +4,11 @@
     "type": "object",
     "description": "Metadata about the glTF asset.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "packets": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "packets" : {
             "type" : "array",

@@ -4,6 +4,10 @@
     "type": "object",
     "description": "glTF extension that defines the unlit material model.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "extensions": { },
         "extras": { }

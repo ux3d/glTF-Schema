@@ -4,6 +4,14 @@
     "type": "object",
     "description": "A perspective camera containing properties to create a perspective projection matrix.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "znear": 5,
+        "zfar": 4,
+        "yfov": 3,
+        "aspectRatio": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "aspectRatio": {
             "type": "number",

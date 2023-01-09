@@ -4,6 +4,12 @@
     "type": "object",
     "description": "The index of the node and TRS property that an animation channel targets.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "path": 3,
+        "node": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "node": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

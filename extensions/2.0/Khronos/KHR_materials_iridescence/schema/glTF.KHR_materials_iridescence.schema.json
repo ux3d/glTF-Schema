@@ -5,6 +5,16 @@
     "description": "glTF extension that defines an iridescence effect.",
     "ux3d_extensionState": "experimental",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "iridescenceFactor": 7,
+        "iridescenceTexture": 6,
+        "iridescenceIor": 5,
+        "iridescenceThicknessMinimum": 4,
+        "iridescenceThicknessMaximum": 3,
+        "iridescenceThicknessTexture": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "iridescenceFactor": {
             "type": "number",

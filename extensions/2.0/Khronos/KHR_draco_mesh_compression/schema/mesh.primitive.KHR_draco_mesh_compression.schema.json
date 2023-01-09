@@ -4,6 +4,12 @@
     "type": "object",
     "ux3d_generateSetter": false,
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "attributes": 3,
+        "bufferView": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "bufferView": {
             "allOf": [ { "$ref" : "glTFid.schema.json" } ],

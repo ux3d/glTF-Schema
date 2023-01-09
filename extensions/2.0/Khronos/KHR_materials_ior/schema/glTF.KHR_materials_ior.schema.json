@@ -4,6 +4,11 @@
     "type": "object",
     "description": "glTF extension that defines the index of refraction of a material.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "ior": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "ior": {
             "type": "number",

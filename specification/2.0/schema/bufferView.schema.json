@@ -4,6 +4,16 @@
     "type": "object",
     "description": "A view into a buffer generally representing a subset of the buffer.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 7,
+        "buffer": 6,
+        "byteOffset": 5,
+        "byteLength": 4,
+        "stride": 3,
+        "target": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "buffer": {
             "allOf": [ { "$ref": "glTFid.schema.json" } ],

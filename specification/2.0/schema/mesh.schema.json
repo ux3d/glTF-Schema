@@ -4,6 +4,13 @@
     "type": "object",
     "description": "A set of primitives to be rendered.  A node can contain one mesh.  A node's transform places the mesh in the scene.",
     "allOf": [ { "$ref": "glTFChildOfRootProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "name": 4,
+        "primitives": 3,
+        "weights": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "primitives": {
             "type": "array",

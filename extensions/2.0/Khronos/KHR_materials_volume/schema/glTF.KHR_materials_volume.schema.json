@@ -4,6 +4,14 @@
     "type": "object",
     "description": "glTF extension that defines the parameters for the volume of a material.",
     "allOf": [ { "$ref": "glTFProperty.schema.json" } ],
+    "ux3d_propertyOrdering": {
+        "thicknessFactor": 5,
+        "thicknessTexture": 4,
+        "attenuationDistance": 3,
+        "attenuationColor": 2,
+        "extensions": 1,
+        "extras": 0
+    },
     "properties": {
         "thicknessFactor": {
             "type": "number",
