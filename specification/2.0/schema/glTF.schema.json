@@ -185,14 +185,18 @@
                 "KHR_materials_variants": 1,
                 "KHR_xmp_json_ld": 0
             },
+            "ux3d_generateSetter": false,
             "properties": {
                 "KHR_lights_punctual": {
+                    "ux3d_generateSetter": false,
                     "$ref": "glTF.KHR_lights_punctual.schema.json"
                 },
                 "KHR_xmp_json_ld": {
+                    "ux3d_generateSetter": false,
                     "$ref": "glTF.KHR_xmp_json_ld.schema.json"
                 },
                 "KHR_materials_variants": {
+                    "ux3d_generateSetter": false,
                     "$ref": "glTF.KHR_materials_variants.schema.json"
                 }
             }
