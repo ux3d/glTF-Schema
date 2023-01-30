@@ -28,7 +28,7 @@
                 "required": ["@context"]
             },
             "minItems": 1,
-            "ux3d_resources": 13
+            "ux3d_resources": 15
         },
         "extensions": { },
         "extras": { }
