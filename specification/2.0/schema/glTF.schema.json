@@ -74,7 +74,8 @@
                 "$ref": "buffer.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of buffers.  A buffer points to binary geometry, animation, or skins."
+            "gltf_detailedDescription": "An array of buffers.  A buffer points to binary geometry, animation, or skins.",
+            "ux3d_resources": 14
         },
         "bufferViews": {
             "type": "array",
@@ -83,7 +84,8 @@
                 "$ref": "bufferView.schema.json"
             },
             "minItems": 1,
-            "gltf_detailedDescription": "An array of bufferViews.  A bufferView is a view into a buffer generally representing a subset of the buffer."
+            "gltf_detailedDescription": "An array of bufferViews.  A bufferView is a view into a buffer generally representing a subset of the buffer.",
+            "ux3d_resources": 13
         },
         "cameras": {
             "type": "array",
