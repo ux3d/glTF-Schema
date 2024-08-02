@@ -12,7 +12,7 @@
   "properties": {
     "source": {
       "allOf": [{ "$ref": "glTFid.schema.json" }],
-      "ux3d_pathPrefix": "/textures",
+      "ux3d_pathPrefix": "/images",
       "description": "The index of the images node which points to a WebP image."
     },
     "extensions": {},
