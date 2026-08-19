@@ -1,6 +1,6 @@
 # glTF-Schema (Fork)
 
-This repository is a fork of KhronosGroup/glTF and contains only the glTF 2.0 JSON Schema files.
+This repository is a fork of [KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) and contains only the glTF 2.0 JSON Schema files.
 
 ## Scope
 
@@ -22,3 +22,4 @@ These properties are added in a backward-compatible way so standard glTF 2.0 dat
 
 - Upstream basis: KhronosGroup/glTF
 - Purpose of this fork: provide a focused schema set for tooling and validation workflows used by Gestaltor
+- all properties in the schemas beginning with "ux3d_" are custom properties added by Gestaltor and are not part of the official glTF 2.0 specification.
